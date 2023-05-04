@@ -7,7 +7,5 @@ services:
       - /path/to/maps:/home/zomboi/steam/steamapps/common/ProjectZomboid/media/maps
       - /path/to/logs:/home/zomboi/Zomboid/Logs
     environment:
-      DISCORD_TOKEN: "my_bot_token"
-      CHANNEL: "channel_name_or_id"
-      RCON_PASSWORD: "my_rcon_password"
+      test: "test"
     restart: unless-stopped
